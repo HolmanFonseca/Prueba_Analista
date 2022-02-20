@@ -34,6 +34,15 @@ Se crearon las cuentas gratuitas en aws y azure devops lo cual se puede comproba
 <img src="/imagenes/Cuentaaws.PNG">
 <img src="/imagenes/cuentaazuredevops.PNG">
 
+2. Crea una base de datos relacional utilizando el servicio RDS de AWS. La base de datos solo
+debe tener una tabla. (Selecciona el motor de base de datos de tu preferencia).
+
+Se decidio utilizar mysql como base de datos RDS en aws, se siguieron los pasos de instalacion y finalmente a continuacion se muestra la instancia de la base de datos creada:
+
+
+
+    
+
 
 
 
