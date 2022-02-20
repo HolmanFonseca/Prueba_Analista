@@ -42,7 +42,17 @@ llamada db-prueba-analista:
 
 <img src="/imagenes/A.PNG">
 
-Para crear la base de datos dentro de la intancia y la tabla se desarrollo el código CreateTable.py que por medio de la libreria de mysql permite hacer consultas dentro de python.Finalmente a continuacion se muestra la tabla creada la cual se llama logs.
+Para crear la base de datos dentro de la intancia y la tabla se desarrollo el código CreateTable.py que por medio de la libreria de mysql permite hacer consultas dentro de python.Finalmente a continuacion se muestra la tabla creada la cual se llama logs y sus correspondientes campos.
+
+<img src="/imagenes/Table.PNG">
+
+3.Utilizando el lenguaje de programación de tu preferencia, crea un Web services decualquier naturaleza (REST, SOAP, GraphQL). Dicho Web services debe consumir la siguiente API REST que retorna información de todos los países del mundo:
+
+https://restcountries.com/v3.1/all
+
+El web services que construirás debe exponer un EndPoint que retorne los 5 países con mayor densidad demográfica del mundo (Recuerda que la densidad demográfica es la
+división entre el número de habitantes y el área donde viven). Los campos en el API de países para realizar este cálculo son area y population. Cada vez que el Endpoint que construyas sea llamado debes dejar un log de uso en la base de datos que se menciona en el punto 2.
+
 
 
 
