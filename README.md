@@ -29,7 +29,7 @@ Instalar: <br>
 
 1. Crea una cuenta gratuita de AWS y una cuenta gratuita de Azure DevOps. 
 
-Se crearon las cuentas gratuitas en aws y azure devops lo cual se puede comprobar en las siguientes imagenes:
+R/ Se crearon las cuentas gratuitas en aws y azure devops lo cual se puede comprobar en las siguientes imagenes:
 
 <img src="/imagenes/Cuentaaws.PNG">
 <img src="/imagenes/cuentaazuredevops.PNG">
@@ -37,14 +37,14 @@ Se crearon las cuentas gratuitas en aws y azure devops lo cual se puede comproba
 2. Crea una base de datos relacional utilizando el servicio RDS de AWS. La base de datos solo
 debe tener una tabla. (Selecciona el motor de base de datos de tu preferencia).
 
-Se decidió utilizar mysql como base de datos RDS en aws, se siguieron los pasos de instalacion y finalmente a continuacion se muestra la instancia de la base de datos creada
+R/ Se decidió utilizar mysql como base de datos RDS en aws, se siguieron los pasos de instalacion y finalmente a continuacion se muestra la instancia de la base de datos creada
 llamada db-prueba-analista:
 
 <img src="/imagenes/A.PNG">
 
 Para crear la base de datos dentro de la intancia y la tabla se desarrollo el código CreateTable.py que por medio de la libreria de mysql permite hacer consultas dentro de python.Finalmente a continuacion se muestra la tabla creada la cual se llama logs y sus correspondientes campos.
 
-<img src="/imagenes/Table.PNG">
+<img src="/imagenes/Tabla.PNG">
 
 3.Utilizando el lenguaje de programación de tu preferencia, crea un Web services decualquier naturaleza (REST, SOAP, GraphQL). Dicho Web services debe consumir la siguiente API REST que retorna información de todos los países del mundo:
 
@@ -52,6 +52,11 @@ https://restcountries.com/v3.1/all
 
 El web services que construirás debe exponer un EndPoint que retorne los 5 países con mayor densidad demográfica del mundo (Recuerda que la densidad demográfica es la
 división entre el número de habitantes y el área donde viven). Los campos en el API de países para realizar este cálculo son area y population. Cada vez que el Endpoint que construyas sea llamado debes dejar un log de uso en la base de datos que se menciona en el punto 2.
+
+R/ Para la creacion del web service se utilizó FastApi, el endopoint recibe como parametros la cedula y el nomnre de la persona que esta ejecutando la consuta, esto con el fin de tener un registro o un log de uso. De igual manera calcula la desidad de todos los paises, los ordena de mayor a menor segun la dencidad y devuelve unicamente los 5 mayores. 
+En la tabla llamada log, ademas de guardarse el nombre y la cedula, tambien se registra la fecha, hora de la consulta y el resultado que se obtuvo. A continuacion se muestra el funcionamiento del web service 
+
+
 
 
 
