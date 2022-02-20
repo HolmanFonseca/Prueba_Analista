@@ -54,7 +54,28 @@ El web services que construirás debe exponer un EndPoint que retorne los 5 paí
 división entre el número de habitantes y el área donde viven). Los campos en el API de países para realizar este cálculo son area y population. Cada vez que el Endpoint que construyas sea llamado debes dejar un log de uso en la base de datos que se menciona en el punto 2.
 
 R/ Para la creacion del web service se utilizó FastApi, el endopoint recibe como parametros la cedula y el nomnre de la persona que esta ejecutando la consuta, esto con el fin de tener un registro o un log de uso. De igual manera calcula la desidad de todos los paises, los ordena de mayor a menor segun la dencidad y devuelve unicamente los 5 mayores. 
-En la tabla llamada log, ademas de guardarse el nombre y la cedula, tambien se registra la fecha, hora de la consulta y el resultado que se obtuvo. A continuacion se muestra el funcionamiento del web service 
+En la tabla llamada log, ademas de guardarse el nombre y la cedula, tambien se registra la fecha, hora de la consulta y el resultado que se obtuvo. A continuacion se muestra el funcionamiento del web service.
+
+Parametros de entrada:
+
+<img src="/imagenes/FastApi.PNG">
+
+Respuesta obtenida del endpoint
+:
+<img src="/imagenes/Respuesta.PNG">
+
+<img src="/imagenes/Respuesta2.PNG">
+
+Com se puede observar en las anteriores imagenes el endpoint devuelve como respuesta los 5 paises con mayor densidad, se tuvieron en cuenta, los campos "common name", "official name", "area", "population" y el campo calculado llamado "density".
+
+Adicionalmente, a continuacion se muestra la tabla desde mysql workbench, con el registro guardado al ejecutar la consulta.
+
+<img src="/imagenes/Consulta.PNG">
+
+
+
+
+
 
 
 
