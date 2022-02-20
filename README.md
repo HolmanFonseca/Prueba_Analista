@@ -37,9 +37,13 @@ Se crearon las cuentas gratuitas en aws y azure devops lo cual se puede comproba
 2. Crea una base de datos relacional utilizando el servicio RDS de AWS. La base de datos solo
 debe tener una tabla. (Selecciona el motor de base de datos de tu preferencia).
 
-Se decidió utilizar mysql como base de datos RDS en aws, se siguieron los pasos de instalacion y finalmente a continuacion se muestra la instancia de la base de datos creada:
+Se decidió utilizar mysql como base de datos RDS en aws, se siguieron los pasos de instalacion y finalmente a continuacion se muestra la instancia de la base de datos creada
+llamada db-prueba-analista:
 
 <img src="/imagenes/A.PNG">
+
+Para crear la base de datos dentro de la intancia y la tabla se desarrollo el código CreateTable.py que por medio de la libreria de mysql permite hacer consultas dentro de python.Finalmente a continuacion se muestra la tabla creada la cual se llama logs.
+
 
 
 
