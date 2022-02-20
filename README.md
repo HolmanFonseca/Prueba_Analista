@@ -56,6 +56,8 @@ división entre el número de habitantes y el área donde viven). Los campos en 
 R/ Para la creacion del web service se utilizó FastApi, el endopoint recibe como parametros la cedula y el nomnre de la persona que esta ejecutando la consuta, esto con el fin de tener un registro o un log de uso. De igual manera calcula la desidad de todos los paises, los ordena de mayor a menor segun la dencidad y devuelve unicamente los 5 mayores. 
 En la tabla llamada log, ademas de guardarse el nombre y la cedula, tambien se registra la fecha, hora de la consulta y el resultado que se obtuvo. A continuacion se muestra el funcionamiento del web service.
 
+Para ejecutar el endpoint, se debe correr el archivo llamado app.py. el cual tiene todo el codigo principal.
+
 Parametros de entrada:
 
 <img src="/imagenes/FastApi.PNG">
