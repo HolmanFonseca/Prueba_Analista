@@ -25,5 +25,7 @@ Instalar: <br>
 - pip install mysql-connector-python == 8.0.28
 - pip install nest-asyncio == 1.5.4
 
-### Ejecutando pruebas <img src="/imagenes/portatil.png" width="30" height="30">
+### Desarrolo de la prueba <img src="/imagenes/portatil.png" width="30" height="30">
+
+1. Crea una cuenta gratuita de AWS y una cuenta gratuita de Azure DevOps. 
 
