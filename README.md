@@ -29,3 +29,11 @@ Instalar: <br>
 
 1. Crea una cuenta gratuita de AWS y una cuenta gratuita de Azure DevOps. 
 
+Se crearon las cuentas gratuitas en aws y azure devops lo cual se puede comprobar en las siguientes imagenes:
+
+<img src="/imagenes/cuentaaws.png">
+<img src="/imagenes/cuentaazuredevops.png">
+
+
+
+
