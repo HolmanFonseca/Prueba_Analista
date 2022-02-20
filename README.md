@@ -31,8 +31,9 @@ Instalar: <br>
 
 Se crearon las cuentas gratuitas en aws y azure devops lo cual se puede comprobar en las siguientes imagenes:
 
-<img src="/imagenes/cuentaaws.png">
+<img src="/imagenes/Centaaws.png">
 <img src="/imagenes/cuentaazuredevops.png">
+
 
 
 
