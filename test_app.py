@@ -16,7 +16,6 @@ client = TestClient(app)
 
 
 def test_read_main():
-    response = client.get("/")
-    assert response.status_code == 422
-    assert response.json() == {"msg": "Hello World"}
+    response = client.get("/", params={"cedula": 1234,"nombre":"Holman Fonseca"})
+    assert response.status_code == 200
 
