@@ -87,6 +87,7 @@ R/ Para este punto se realizó un archivo con la lista de requerimientos para de
 
 R/ Finalmente se creo un pipeline realease configurandolo como agente local, lo cual se puede envidenciar en la siguiente imagen:
 
+<img src="/imagenes/azure2.png">
 
 
 
