@@ -80,6 +80,9 @@ Aunque los puntos 4 y 5 se realizaron fuera del tiempo establecido para la prueb
 
 Para este punto se realizó un archivo con la lista de requerimientos para desplegar el web service que se encuentra en el archivo requirements, así como una prueba unitaria que se encuentra en el archivo test_app.py. Se creo el pipeline por medio de Azure DevOps, configurando como agente de forma local, a continuación se muestran los resultados:
 
+<img src="/imagenes/azure.png">
+<img src="/imagenes/azure1.png">
+
 
 
 
