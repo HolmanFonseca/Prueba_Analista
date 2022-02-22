@@ -76,16 +76,16 @@ Adicionalmente, a continuacion se muestra la tabla desde mysql workbench, con el
 
 Aunque los puntos 4 y 5 se realizaron fuera del tiempo establecido para la prueba, a continuación se muestra evidencia de su desarrollo:
 
-4.construye un un pipeline de Build con análisis estático de código, la ejecución de las pruebas unitarias y la publicación del artefacto que hace pruebas de aceptación.
+4. Construye un un pipeline de Build con análisis estático de código, la ejecución de las pruebas unitarias y la publicación del artefacto que hace pruebas de aceptación.
 
-Para este punto se realizó un archivo con la lista de requerimientos para desplegar el web service que se encuentra en el archivo requirements, así como una prueba unitaria que se encuentra en el archivo test_app.py. Se creo el pipeline por medio de Azure DevOps, configurando como agente de forma local, a continuación se muestran los resultados:
+R/ Para este punto se realizó un archivo con la lista de requerimientos para desplegar el web service que se encuentra en el archivo requirements, así como una prueba unitaria que se encuentra en el archivo test_app.py. Se creo el pipeline por medio de Azure DevOps, configurando como agente de forma local, a continuación se muestran los resultados:
 
 <img src="/imagenes/azure.png">
 <img src="/imagenes/azure1.png">
 
+5. Ejecuta en un pipeline de Reléase la prueba de aceptación (Como alternativa puedes configurar un agente de forma local).
 
-
-
+R/ Finalmente se creo un pipeline realease configurandolo como agente local, lo cual se puede envidenciar en la siguiente imagen:
 
 
 
